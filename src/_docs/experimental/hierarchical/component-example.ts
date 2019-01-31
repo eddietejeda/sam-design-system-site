@@ -32,24 +32,25 @@ export class SamHierarchicalComponentExampleComponent implements OnInit {
 
 
   ngOnInit() {
-    this.settings.id = 'autocomplete1'; 
+    this.settings.id = 'autocomplete1';
     this.settings.primaryKeyField = 'id';
-    this.settings.primaryTextField = 'name'; 
+    this.settings.primaryTextField = 'name';
     this.settings.secondaryTextField = 'subtext';
     this.settings.labelText = 'Autocomplete 1';
 
-    this.settings.autocompletePlaceHolderText = 'Enter text'; 
+    this.settings.autocompletePlaceHolderText = 'Enter text';
     this.settings.modalTitle = 'Advanced Lookup';
-    this.settings.gridColumnsDisplayed = [ 
+    this.settings.gridColumnsDisplayed = [
       { headerText: 'Id', fieldName: 'id' },
       { headerText: 'Name', fieldName: 'name' },
       { headerText: 'Sub Text', fieldName: 'subtext' },
       { headerText: 'Children', fieldName: 'childCount' }
     ];
-    this.settings.childCountField = 'childCount'; 
-    this.settings.filterPlaceholderText = 'Filter Placeholder'; 
-    this.settings.topLevelBreadcrumbText = 'All Departments'; 
-   
+    this.settings.childCountField = 'childCount';
+    this.settings.filterPlaceholderText = 'Filter Placeholder';
+    this.settings.topLevelBreadcrumbText = 'All Departments';
+    this.settings.minimumCharacterCountSearch = 3;
+
 
     this.settings2.primaryKeyField = 'id';
     this.settings2.id = 'autocomplete2';
@@ -67,7 +68,7 @@ export class SamHierarchicalComponentExampleComponent implements OnInit {
     this.settings2.childCountField = 'childCount';
     this.settings2.filterPlaceholderText = 'Filter Placeholder';
     this.settings2.topLevelBreadcrumbText = 'All Departments';
-
+    this.settings2.minimumCharacterCountSearch = 3;
 
     this.settings3.primaryKeyField = 'id';
     this.settings3.id = 'autocomplete3';
@@ -86,6 +87,7 @@ export class SamHierarchicalComponentExampleComponent implements OnInit {
     this.settings3.childCountField = 'childCount';
     this.settings3.filterPlaceholderText = 'Filter Placeholder';
     this.settings3.topLevelBreadcrumbText = 'All Departments';
+    this.settings3.minimumCharacterCountSearch = 3;
 
 
     this.settings4.primaryKeyField = 'id';
@@ -105,6 +107,7 @@ export class SamHierarchicalComponentExampleComponent implements OnInit {
     this.settings4.childCountField = 'childCount';
     this.settings4.filterPlaceholderText = 'Filter Placeholder';
     this.settings4.topLevelBreadcrumbText = 'All Departments';
+    this.settings4.minimumCharacterCountSearch = 3;
 
     this.model.treeMode = TreeMode.SINGLE;
     this.model2.treeMode = TreeMode.SINGLE;
