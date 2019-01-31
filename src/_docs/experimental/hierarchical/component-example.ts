@@ -50,7 +50,7 @@ export class SamHierarchicalComponentExampleComponent implements OnInit {
     this.settings.filterPlaceholderText = 'Filter Placeholder';
     this.settings.topLevelBreadcrumbText = 'All Departments';
     this.settings.minimumCharacterCountSearch = 3;
-
+    //this.settings.hideAdvancedLookup = true;
 
     this.settings2.primaryKeyField = 'id';
     this.settings2.id = 'autocomplete2';
@@ -69,6 +69,7 @@ export class SamHierarchicalComponentExampleComponent implements OnInit {
     this.settings2.filterPlaceholderText = 'Filter Placeholder';
     this.settings2.topLevelBreadcrumbText = 'All Departments';
     this.settings2.minimumCharacterCountSearch = 3;
+    //this.settings2.hideAdvancedLookup = true;
 
     this.settings3.primaryKeyField = 'id';
     this.settings3.id = 'autocomplete3';
@@ -88,7 +89,7 @@ export class SamHierarchicalComponentExampleComponent implements OnInit {
     this.settings3.filterPlaceholderText = 'Filter Placeholder';
     this.settings3.topLevelBreadcrumbText = 'All Departments';
     this.settings3.minimumCharacterCountSearch = 3;
-
+    //this.settings3.hideAdvancedLookup = true;
 
     this.settings4.primaryKeyField = 'id';
     this.settings4.id = 'autocomplete4';
@@ -108,6 +109,7 @@ export class SamHierarchicalComponentExampleComponent implements OnInit {
     this.settings4.filterPlaceholderText = 'Filter Placeholder';
     this.settings4.topLevelBreadcrumbText = 'All Departments';
     this.settings4.minimumCharacterCountSearch = 3;
+    //this.settings4.hideAdvancedLookup = true;
 
     this.model.treeMode = TreeMode.SINGLE;
     this.model2.treeMode = TreeMode.SINGLE;
