@@ -22,6 +22,7 @@
     "bundle-analyzer": "webpack-bundle-analyzer dist/stats.json",
     "federalist": "npm run init && NODE_OPTIONS=--max-old-space-size=5072 && ng build --prod"
   },
+  "engines" : { "node" : ">=0.10.15" },
   "private": true,
   "dependencies": {
     "@angular-devkit/build-angular": "~0.7.0",
